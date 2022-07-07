@@ -26,5 +26,9 @@
     "bili_decipher_linux":"dist/bili_decipher-linux",
     "bili_decipher_mac":"dist/bili_decipher-mac",
     "bili_decipher":"dist/bili_decipher-win.exe"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/yhhit/bili_decipher.git"
   }
 }
