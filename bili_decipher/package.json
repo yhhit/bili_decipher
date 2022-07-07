@@ -1,0 +1,30 @@
+{
+  "name": "bili_decipher",
+  "version": "1.0.9",
+  "description": "Decipher bilibili video",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --inspect --inspect-brk index.js",
+    "start": "node index.js",
+    "pkg": "pkg . --out-path=dist/"
+  },
+  "keywords": [
+    "bilibili",
+    "decipher"
+  ],
+  "author": {
+    "name": "honghao yue",
+    "email": "yuehonghao@qq.com",
+    "url": "https://yhhit.xyz/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "bin": {
+    "bili_decipher": "bin/bili_decipher.js",
+    "bili_decipher_linux":"dist/bili_decipher-linux",
+    "bili_decipher_mac":"dist/bili_decipher-mac",
+    "bili_decipher":"dist/bili_decipher-win.exe"
+  }
+}
